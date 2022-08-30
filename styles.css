@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+}
+
+.size {
+    width: 6.25%;
+    height: 6.25%;
+}
+
+.hover-color {
+    background-color: rgb(127, 146, 255);
+    transition: .3s;
+}
